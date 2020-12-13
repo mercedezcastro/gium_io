@@ -1,7 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
 /.pnp
 .pnp.js
 
@@ -10,7 +9,6 @@
 /build
 
 # misc
-.DS_Store
 .env.local
 .env.development.local
 .env.test.local
@@ -18,14 +16,11 @@
 
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
-
 ### Example user template
 
 # IntelliJ project files
 .idea
 *.iml
-out
 gen
 
 ### macOS template
@@ -84,7 +79,6 @@ $RECYCLE.BIN/
 ### Node template
 # Logs
 logs
-*.log
 lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
@@ -100,12 +94,9 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
 *.lcov
 
 # nyc test coverage
-.nyc_output
-
 # Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
@@ -123,11 +114,7 @@ node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
-web_modules/
-
 # TypeScript cache
-*.tsbuildinfo
-
 # Optional npm cache directory
 .npm
 
@@ -154,18 +141,13 @@ web_modules/
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
-.cache
 .parcel-cache
 
 # Next.js build output
 .next
-
 # Nuxt.js build / generate output
 .nuxt
-dist
-
 # Gatsby files
-.cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
